@@ -1,4 +1,4 @@
-## Angular Boilerplate
+## Project Angular Popovers
 
 ### Initialize:
 In root folder: run `./init`

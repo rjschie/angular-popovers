@@ -1,21 +1,21 @@
 {
-  "name": "angular-boilerplate",
+  "name": "angular-popovers",
   "version": "0.1",
-  "description": "My Angular Boilerplate",
+  "description": "Project Angular Popovers",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rjschie/angular-boilerplate.git"
+    "url": "https://github.com/rjschie/angular-popovers.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rjschie/angular-boilerplate/issues"
+    "url": "https://github.com/rjschie/angular-popovers/issues"
   },
-  "homepage": "https://github.com/rjschie/angular-boilerplate",
+  "homepage": "https://github.com/rjschie/angular-popovers",
   "devDependencies": {
     "del": "^1.1.0",
     "gulp": "^3.8.10",

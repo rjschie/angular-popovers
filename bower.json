@@ -1,8 +1,8 @@
 {
-  "name": "angular-boilerplate",
-  "description": "My Angular Boilerplate",
+  "name": "angular-popovers",
+  "description": "Project Angular Popovers",
   "version": "0.1",
-  "homepage": "https://github.com/rjschie/angular-boilerplate",
+  "homepage": "https://github.com/rjschie/angular-popovers",
   "authors": [
     "Ryan Schie <rjschie@gmail.com>"
   ],
