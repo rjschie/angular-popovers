@@ -3,24 +3,3 @@
 	position: relative;
 	height: 100vh;
 }
-
-.button {
-	background-color: #629fb2;
-	padding: 1rem .8rem;
-	border: none;
-	border-radius: 3px;
-	position: relative;
-	width: 16rem;
-	top: 50%;
-	left: 50%;
-	transform: translateX(-50%);
-	cursor: pointer;
-}
-
-.button:active {
-	background-color: #7392b2;
-}
-
-.button:focus {
-	outline: none;
-}
