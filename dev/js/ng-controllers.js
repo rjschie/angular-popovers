@@ -1,15 +1,20 @@
 'use strict';
 
-angular.module('app.controllers', [])
+var app = angular.module('app.controllers', []);
 
-.controller('BaseController', ['$scope', '$state',
-	function($scope, $state) {
+app.controller('BaseController', ['$scope', '$state',
+	function($scope, $state)
+	{
 		$scope.$state = $state;
 	}
-])
-.controller('HomeController', ['$scope',
-	function($scope) {
-		return null;
+]);
+
+app.controller('HomeController', ['$scope',
+	function($scope)
+	{
+		$scope.state = false;
+		$scope.toggle = function(val) {
+			$scope.state = val;
+		}
 	}
-])
-;
+]);

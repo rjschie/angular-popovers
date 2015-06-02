@@ -1,5 +1,18 @@
-
-
 <div class="wrapper">
-	<button class="button">Click for Popover</button>
+	<p>{{ state }}</p>
+	<button class="button this-button"
+					popover
+					popover-dir="left"
+					popover-template="popover-form"
+		>Click for Popover
+	</button>
+
 </div>
+
+<script type="text/ng-template" id="popover-form">
+	<p>Are you sure?</p>
+	<ul>
+		<li ng-click="toggle(true)">Yes</li>
+		<li ng-click="toggle(false)">No</li>
+	</ul>
+</script>

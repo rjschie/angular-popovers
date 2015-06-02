@@ -36,24 +36,34 @@ html, body {
   height: 100vh; }
 
 .button {
-  background-color: #629fb2;
+  background-color: #6788b2;
   padding: 1rem .8rem;
   border: none;
   border-radius: 3px;
   position: relative;
-  width: 16rem;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
-  cursor: pointer; }
+  cursor: pointer;
+  display: block; }
 
 .button:active {
   background-color: #7392b2; }
 
 .button:focus {
   outline: none; }
+
+.this-button {
+  width: 16rem;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%); }
+
+.popover {
+  background-color: #ddd;
+  border: 1px solid #777;
+  border-radius: 3px;
+  display: inline-block;
+  position: absolute; }
 
 .wrapper {
   position: relative;
